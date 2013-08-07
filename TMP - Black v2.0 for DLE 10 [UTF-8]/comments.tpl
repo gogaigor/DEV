@@ -2,8 +2,8 @@
     <div class="comment-up">
         <ul class="comment-info">
             <li class="com-quote">[fast]Цитировать[/fast]</li>
+             <li><b>{date}</b>&nbsp;&nbsp;|</li>
             <li>Автор: <b>{author}</b></li>
-            <li>Дата: <b>{date}</b></li>
             <li>Группа: <b>{group-name}</b></li>
         </ul>
         [not-group=5]
@@ -22,7 +22,7 @@
         <div class="clr"></div>
     </div>
     <div class="comment">
-        <div class="com-ava"><div class="pro-avatar"><img src="{foto}" alt=""></div></div>
+        <div class="com-ava"><img class="pro-avatar" src="{foto}" alt=""></div>
         <div class="com-text">{comment}</div>
         <div class="clr"></div>
     </div>
