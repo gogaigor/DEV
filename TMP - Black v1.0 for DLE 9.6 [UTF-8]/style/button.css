@@ -1,0 +1,220 @@
+/* Дизайн был сделан человеком под ником Warrior или gogaigor*/
+/*Кнопка ( Маленькая)*/
+#button1{
+	padding:10px 15px;/*Отступ от границы рамки до текста */
+	font:normal 15px "Tahoma";/*Шрифт*/
+	color:#8F8F8F;/*Цвет шрифта*/
+	cursor:pointer;/*Курсор мыши*/
+	border:none;
+	/*
+	Тень, отбрасываемая текстом в кнопке:
+	text-shadow: none | тень
+	где тень: [сдвиг по x] [сдвиг по y] [радиус размытия] [цвет]
+	*/
+		-webkit-box-shadow:0 0 5px 1px #EAEAEA;
+	-moz-box-shadow:0 0 5px 1px #EAEAEA;
+	box-shadow:0 0 5px 1px #EAEAEA;
+	/*
+	Закругление углов кнопки:
+	*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	
+	/*
+	Градиент:
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+	*/
+background: -moz-linear-gradient(top, #606060 0%, #1c1c1c 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#1c1c1c));
+background: -webkit-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -o-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -ms-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: linear-gradient(to bottom, #606060 0%,#1c1c1c 100%);
+}
+
+#button1:hover{
+	background-color:#EBEBEB;
+	
+	/*
+	Тень вокруг кнопки
+	box-shadow: none | тень [, тень]*
+	где  тень: inset [сдвиг по x] [сдвиг по y] [радиус размытия] [растяжение] [цвет]
+	Значение insert указывается, если нужно создать внутреннюю тень.
+	*/
+	-webkit-box-shadow:0 0 5px 1px #EAEAEA;
+	-moz-box-shadow:0 0 5px 1px #EAEAEA;
+	box-shadow:0 0 5px 1px #EAEAEA;
+	
+	/*
+	Градиент
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+
+	*/
+background: -moz-linear-gradient(top, #606060 0%, #262626 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#262626));
+background: -webkit-linear-gradient(top, #606060 0%,#262626 100%);
+background: -o-linear-gradient(top, #606060 0%,#262626 100%);
+background: -ms-linear-gradient(top, #606060 0%,#262626 100%);
+background: linear-gradient(to bottom, #606060 0%,#262626 100%);
+	color:#c2c2c2;
+}
+
+#button1:active{
+	
+	-webkit-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	-moz-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	box-shadow:inset 0 1px 0 1px #B5B5B5;
+	
+background: -moz-linear-gradient(top, #606060 0%, #262626 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#262626));
+background: -webkit-linear-gradient(top, #606060 0%,#262626 100%);
+background: -o-linear-gradient(top, #606060 0%,#262626 100%);
+background: -ms-linear-gradient(top, #606060 0%,#262626 100%);
+background: linear-gradient(to bottom, #606060 0%,#262626 100%);
+}
+/*КНопка Для логина*/
+
+#button2{
+    padding:10px 15px;/*Отступ от границы рамки до текста */
+	font-size:15px;/*Шрифт*/
+	cursor:pointer;/*Курсор мыши*/
+	/*
+	Тень, отбрасываемая текстом в кнопке:
+	text-shadow: none | тень
+	где тень: [сдвиг по x] [сдвиг по y] [радиус размытия] [цвет]
+	*/
+
+	
+	/*
+	Закругление углов кнопки:
+	*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	
+	/*
+	Градиент:
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+	*/
+	background: -webkit-linear-gradient(top, #fff, #EBEBEB);
+	background:    -moz-linear-gradient(top, #fff, #EBEBEB);
+	background:     -ms-linear-gradient(top, #fff, #EBEBEB);
+	background:      -o-linear-gradient(top, #fff, #EBEBEB);
+}
+
+#button2:hover{
+	background-color:#EBEBEB;
+	
+	/*
+	Тень вокруг кнопки
+	box-shadow: none | тень [, тень]*
+	где  тень: inset [сдвиг по x] [сдвиг по y] [радиус размытия] [растяжение] [цвет]
+	Значение insert указывается, если нужно создать внутреннюю тень.
+	*/
+	-webkit-box-shadow:0 0 5px 1px #EAEAEA;
+	-moz-box-shadow:0 0 5px 1px #EAEAEA;
+	box-shadow:0 0 5px 1px #EAEAEA;
+	
+	/*
+	Градиент
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+
+	*/
+	background: -webkit-linear-gradient(top, #fff, #E0E0E0);
+	background:    -moz-linear-gradient(top, #fff, #E0E0E0);
+	background:     -ms-linear-gradient(top, #fff, #E0E0E0);
+	background:      -o-linear-gradient(top, #fff, #E0E0E0);
+	color:#00853E;
+}
+
+#button2:active{
+	
+	-webkit-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	-moz-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	box-shadow:inset 0 1px 0 1px #B5B5B5;
+	
+	background: -webkit-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:    -moz-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:     -ms-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:      -o-linear-gradient(top, #E3E3E3, #FAFAFA);
+}
+/*Кнопки БОЛЬШИЕ*/
+#button{
+	padding:3px 3px;/*Отступ от границы рамки до текста */
+	font:normal 15px "Tahoma";/*Шрифт*/
+	color:#8F8F8F;/*Цвет шрифта*/
+	cursor:pointer;/*Курсор мыши*/
+	border:none;
+	/*
+	Тень, отбрасываемая текстом в кнопке:
+	text-shadow: none | тень
+	где тень: [сдвиг по x] [сдвиг по y] [радиус размытия] [цвет]
+	*/
+
+	
+	/*
+	Закругление углов кнопки:
+	*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+		-webkit-box-shadow:inset 0 1px 0 1px #777777;
+	-moz-box-shadow:inset 0 1px 0 1px #777777;
+	box-shadow:inset 0 1px 0 1px #777777;
+	/*
+	Градиент:
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+	*/
+background: -moz-linear-gradient(top, #606060 0%, #1c1c1c 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#1c1c1c));
+background: -webkit-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -o-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -ms-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: linear-gradient(to bottom, #606060 0%,#1c1c1c 100%);
+}
+
+#button:hover{
+	background-color:#EBEBEB;
+	
+	/*
+	Тень вокруг кнопки
+	box-shadow: none | тень [, тень]*
+	где  тень: inset [сдвиг по x] [сдвиг по y] [радиус размытия] [растяжение] [цвет]
+	Значение insert указывается, если нужно создать внутреннюю тень.
+	*/
+	
+	/*
+	Градиент
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+
+	*/
+background: -moz-linear-gradient(top, #606060 0%, #262626 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#262626));
+background: -webkit-linear-gradient(top, #606060 0%,#262626 100%);
+background: -o-linear-gradient(top, #606060 0%,#262626 100%);
+background: -ms-linear-gradient(top, #606060 0%,#262626 100%);
+background: linear-gradient(to bottom, #606060 0%,#262626 100%);
+	color:#c2c2c2;
+}
+
+#button:active{
+	
+	-webkit-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	-moz-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	box-shadow:inset 0 1px 0 1px #B5B5B5;
+	
+background: -moz-linear-gradient(top, #606060 0%, #1c1c1c 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606060), color-stop(100%,#1c1c1c));
+background: -webkit-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -o-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: -ms-linear-gradient(top, #606060 0%,#1c1c1c 100%);
+background: linear-gradient(to bottom, #606060 0%,#1c1c1c 100%);
+}
+/* Дизайн был сделан человеком под ником Warrior или gogaigor*/

@@ -1,0 +1,12 @@
+.warning {
+ margin:10px;
+border:1px solid #c1b8c1;
+border-radius:6px;
+-webkit-border-radius: 6px;
+overflow:hidden;
+}
+
+.warning-content {
+  background:url('../images/warning.png');   
+  padding:10px;
+}

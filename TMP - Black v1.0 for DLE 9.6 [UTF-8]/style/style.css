@@ -1,0 +1,112 @@
+/* Дизайн был сделан человеком под ником Warrior или gogaigor*/
+/* Главное*/
+body {
+background: #FFFFFF url('../images/background.jpg') fixed no-repeat;
+font:14px Tahoma;
+color:#717371;
+padding:0;
+margin:0;    
+}
+
+hr { 
+ background-color:#C2C2C2;
+}
+
+/* Ссылки*/
+a {
+text-decoration:none;
+color:#717371;
+}
+
+ul, li {
+ list-style:none;   
+}
+
+a:hover{
+color:#00853E;
+    -o-transition: all .25s linear;
+-moz-transition: all .25s linear;
+-webkit-transition: all .25s linear;
+-ms-transition: all .25s linear;
+transition: all .25s linear;
+}
+
+/* Инпуты*/
+input {
+/*
+	Тень, отбрасываемая текстом в кнопке:
+	text-shadow: none | тень
+	где тень: [сдвиг по x] [сдвиг по y] [радиус размытия] [цвет]
+	*/
+	text-shadow: 0 1px 0 white;
+	
+	/*
+	Закругление углов кнопки:
+	*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	
+	/*
+	Градиент:
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+	*/
+	background: -webkit-linear-gradient(top, #fff, #EBEBEB);
+	background:    -moz-linear-gradient(top, #fff, #EBEBEB);
+	background:     -ms-linear-gradient(top, #fff, #EBEBEB);
+	background:      -o-linear-gradient(top, #fff, #EBEBEB);
+border:0;
+height:25px;
+padding-left:2px;
+border:1px solid #c1b8c1;
+text-align:center;
+}
+
+input:active{
+	
+	-webkit-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	-moz-box-shadow:inset 0 1px 0 1px #B5B5B5;
+	box-shadow:inset 0 1px 0 1px #B5B5B5;
+	
+	background: -webkit-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:    -moz-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:     -ms-linear-gradient(top, #E3E3E3, #FAFAFA);
+	background:      -o-linear-gradient(top, #E3E3E3, #FAFAFA);
+}
+
+input:hover{
+	background-color:#EBEBEB;	
+	/*
+	Тень вокруг кнопки
+	box-shadow: none | тень [, тень]*
+	где  тень: inset [сдвиг по x] [сдвиг по y] [радиус размытия] [растяжение] [цвет]
+	Значение insert указывается, если нужно создать внутреннюю тень.
+	*/
+	-webkit-box-shadow:0 0 5px 1px #EAEAEA;
+	-moz-box-shadow:0 0 5px 1px #EAEAEA;
+	box-shadow:0 0 5px 1px #EAEAEA;
+	
+	/*
+	Градиент
+	linear-gradient(направление наложения градиента, цвет 1, цвет 2)
+	Происходит плавный переход от цвета 1 к цвету 2 в заданном направлении.
+
+	*/
+	background: -webkit-linear-gradient(top, #fff, #E0E0E0);
+	background:    -moz-linear-gradient(top, #fff, #E0E0E0);
+	background:     -ms-linear-gradient(top, #fff, #E0E0E0);
+	background:      -o-linear-gradient(top, #fff, #E0E0E0);
+	color:#00853E;
+-webkit-transition: all 1s ;
+-moz-transition: all 1s ;
+-ms-transition: all 1s ;
+-o-transition: all 1s ;
+transition: all 1s ;
+}
+
+.wrapper {
+    margin-top:50px;
+    width:1000px;
+    margin:auto;
+}
