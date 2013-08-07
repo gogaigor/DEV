@@ -1,20 +1,20 @@
 <div class="comment-block">
     <div class="comment-up">
         <ul class="comment-info">
-            <li class="com-quote">[fast]Цитировать[/fast]</li>
-            <li>Автор: <b>{author}</b></li>
-            <li>Дата: <b>{date}</b></li>
-            <li>Группа: <b>{group-name}</b></li>
+            <li class="com-quote">[fast]Р¦РёС‚РёСЂРѕРІР°С‚СЊ[/fast]</li>
+             <li><b>{date}</b>&nbsp;&nbsp;|</li>
+            <li>РђРІС‚РѕСЂ: <b>{author}</b></li>
+            <li>Р“СЂСѓРїРїР°: <b>{group-name}</b></li>
         </ul>
         [not-group=5]
         <div class="com-edit">
-            <span class="edit"><a class="a-edit">Операции</a>
+            <span class="edit"><a class="a-edit">РћРїРµСЂР°С†РёРё</a>
                 <ul class="dropdown">
-                    <a><label><li>Отметить:{mass-action}</li></label></a>
-                    [spam]<li>Спам</li>[/spam]
-                    [complaint]<li>Жалоба</li>[/complaint]
-                    [com-edit]<li>Изменить</li>[/com-edit]
-                    [com-del]<li>Удалить</li>[/com-del]
+                    <a><label><li>РћС‚РјРµС‚РёС‚СЊ:{mass-action}</li></label></a>
+                    [spam]<li>РЎРїР°Рј</li>[/spam]
+                    [complaint]<li>Р–Р°Р»РѕР±Р°</li>[/complaint]
+                    [com-edit]<li>РР·РјРµРЅРёС‚СЊ</li>[/com-edit]
+                    [com-del]<li>РЈРґР°Р»РёС‚СЊ</li>[/com-del]
                 </ul>
             </span> 
         </div>
@@ -22,7 +22,7 @@
         <div class="clr"></div>
     </div>
     <div class="comment">
-        <div class="com-ava"><div class="pro-avatar"><img src="{foto}" alt=""></div></div>
+        <div class="com-ava"><img class="pro-avatar" src="{foto}" alt=""></div>
         <div class="com-text">{comment}</div>
         <div class="clr"></div>
     </div>
